@@ -58,14 +58,16 @@ export default function Home() {
   let answersArea = <div className="loading">Loading the answers...</div>;
 
   if (!isLoading) {
-    answersArea = (
-      <Answer
-        number="1"
-        answer={answers[0]}
-        accounts={accounts}
-        isLoggedIn={isLoggedIn}
-      />
-    );
+    answersArea = answers.map(function (answer, index) {
+      return (
+        <Answer
+          number={index + 1}
+          answer={answer}
+          accounts={accounts}
+          isLoggedIn={isLoggedIn}
+        />
+      );
+    });
   }
 
   return (

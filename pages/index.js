@@ -89,10 +89,10 @@ export default function Home() {
           </p>
 
           <div className="slides">
-            <Image src="/image-1.jpg" width="600" height="800" />
-            <Image src="/image-2.jpg" width="600" height="800" />
-            <Image src="/image-3.jpg" width="600" height="800" />
-            <Image src="/image-4.jpg" width="600" height="800" />
+            <Image src="/image-1.jpg" alt="" width="600" height="800" />
+            <Image src="/image-2.jpg" alt="" width="600" height="800" />
+            <Image src="/image-3.jpg" alt="" width="600" height="800" />
+            <Image src="/image-4.jpg" alt="" width="600" height="800" />
           </div>
         </div>
         <div className="meta">

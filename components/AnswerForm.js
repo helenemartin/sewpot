@@ -13,11 +13,6 @@ const AnswerForm = function ({ accounts, setAnswers, isLoggedIn }) {
       accounts[0]
     );
 
-    // TODO!
-    // send the message state to the /api/answers
-    // but we need to verify who we say we are!
-    // we don't want people pretending it's us!
-
     const data = {
       questionId: 1,
       reply: message,

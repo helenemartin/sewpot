@@ -1,26 +1,16 @@
-// for next.js's <head> tag and rendering images
 import Head from "next/head";
 import Image from "next/image";
 
-// import the web3 library with setup from lib/web3.js
 import { web3 } from "../lib/web3";
 
-// import react hooks
 import { useState, useEffect } from "react";
 
-// all from our components folder
 import Account from "../components/Account";
 import EthName from "../components/EthName";
 import Answer from "../components/Answer";
 import AnswerForm from "../components/AnswerForm";
 
 export default function Home() {
-  // todo:
-  // 1. make the connect button work!
-  // 2. get the answers from the API (see /api/answers.js file)
-  // 3. add tipping like project 1
-  // 4. make the user name look good
-  // 5. let the user post their own reply
   const [accounts, setAccounts] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(true);

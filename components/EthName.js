@@ -18,7 +18,6 @@ const EnsName = function ({ address }) {
 
       <div className="name">
         <span className="primary">{formattedAddress}</span>
-        <span className="secondary">{/* formatted address here */}</span>
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <main>
       <header>
-        <h1>The SewageCorporationUnit</h1>
+        <h1>The Sewage Corporation Unit</h1>
 
         <form>
           <input type="text" placeholder="Search" />
@@ -121,7 +121,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="answers">{answersArea}</section>
+      <section className="answers">
+        {answersArea}
+        <AnswerForm
+          accounts={accounts}
+          setAnswers={setAnswers}
+          isLoggedIn={isLoggedIn}
+        />
+      </section>
 
       <Head>
         <title>

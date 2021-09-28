@@ -96,7 +96,6 @@ export default function Home() {
           </div>
         </div>
         <div className="meta">
-          {/* EthName */}
           <div className="eth-name">
             <img
               src="https://ipfs.io/ipfs/QmbctVN8tPaDLiLysVDwThf7JTJhMejbSypZ4a3v5H2G3a"
@@ -107,7 +106,6 @@ export default function Home() {
               <span className="secondary">0xb25bf3...aaf4</span>
             </div>
           </div>
-          {/* end EthName */}
         </div>
       </section>
 

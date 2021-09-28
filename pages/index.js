@@ -45,6 +45,19 @@ export default function Home() {
       });
   }, []);
 
+  useEffect(() => {
+    window.ethereum.on("accountsChanged", setAccounts);
+
+    window.ethereum.request({ method: "eth_accounts" }).then(setAccounts);
+
+    fetch("/api/answers")
+      .then((response) => response.json())
+      .then((data) => {
+        setAnswers(data.answers);
+        setIsLoading(false);
+      });
+  }, []);
+
   let answersArea = <div className="loading">Loading the answers...</div>;
 
   if (!isLoading) {

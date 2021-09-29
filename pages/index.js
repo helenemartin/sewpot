@@ -20,6 +20,7 @@ export default function Home() {
     let a = await window.ethereum.request({ method: "eth_requestAccounts" });
     setAccounts(a);
   };
+
   useEffect(
     function () {
       if (accounts.length > 0) {
@@ -31,19 +32,19 @@ export default function Home() {
     [accounts]
   );
 
-  useEffect(async function () {
-    let a = await window.ethereum.request({ method: "eth_accounts" });
-    setAccounts(a);
-    window.ethereum.on("accountsChanged", function (a) {
-      setAccounts(a);
-    });
-    fetch("/api/answers")
-      .then((response) => response.json())
-      .then((data) => {
-        setAnswers(data.answers);
-        setIsLoading(false);
-      });
-  }, []);
+  // useEffect(async function () {
+  //   let a = await window.ethereum.request({ method: "eth_accounts" });
+  //   setAccounts(a);
+  //   window.ethereum.on("accountsChanged", function (a) {
+  //     setAccounts(a);
+  //   });
+  //   fetch("/api/answers")
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       setAnswers(data.answers);
+  //       setIsLoading(false);
+  //     });
+  // }, []);
 
   useEffect(() => {
     window.ethereum.on("accountsChanged", setAccounts);

@@ -1,7 +1,7 @@
 import EthName from "./EthName";
 
 const Account = function ({ accounts, isLoggedIn, connect }) {
-  if (accounts.length > 0) {
+  if (isLoggedIn && accounts.length) {
     return <EthName address={accounts[0]} />;
   } else {
     return <button onClick={connect}>Connect</button>;

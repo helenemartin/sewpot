@@ -32,20 +32,6 @@ export default function Home() {
     [accounts]
   );
 
-  // useEffect(async function () {
-  //   let a = await window.ethereum.request({ method: "eth_accounts" });
-  //   setAccounts(a);
-  //   window.ethereum.on("accountsChanged", function (a) {
-  //     setAccounts(a);
-  //   });
-  //   fetch("/api/answers")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setAnswers(data.answers);
-  //       setIsLoading(false);
-  //     });
-  // }, []);
-
   useEffect(() => {
     window.ethereum.on("accountsChanged", setAccounts);
 
@@ -103,10 +89,10 @@ export default function Home() {
           </p>
 
           <div className="slides">
-            <Image src="/image-1.jpg" alt="" width="600" height="800" />
-            <Image src="/image-2.jpg" alt="" width="600" height="800" />
-            <Image src="/image-3.jpg" alt="" width="600" height="800" />
-            <Image src="/image-4.jpg" alt="" width="600" height="800" />
+            <Image key={1} src="/image-1.jpg" alt="" width="600" height="800" />
+            <Image key={2} src="/image-2.jpg" alt="" width="600" height="800" />
+            <Image key={3} src="/image-3.jpg" alt="" width="600" height="800" />
+            <Image key={4} src="/image-4.jpg" alt="" width="600" height="800" />
           </div>
         </div>
         <div className="meta">

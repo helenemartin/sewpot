@@ -51,6 +51,7 @@ export default function Home() {
     answersArea = answers.map(function (answer, index) {
       return (
         <Answer
+          key={index}
           number={index + 1}
           answer={answer}
           accounts={accounts}

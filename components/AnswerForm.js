@@ -42,7 +42,7 @@ const AnswerForm = function ({ accounts, setAnswers, isLoggedIn }) {
   return (
     <form onSubmit={post} className="answer-form">
       <textarea
-        placeholder="Please be nice and courteous in your answers!"
+        placeholder="Please be nice and courteous in your comments!"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>

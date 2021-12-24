@@ -79,14 +79,11 @@ export default function Home() {
 
       <section className="question">
         <div className="main">
-          <h3>Feedback forum</h3>
-          <h2>Looking for feedback as a beginner</h2>
+          <h3>Blog Post #1 </h3>
+          <h2>The State of New Jersey</h2>
           <p>
-            Hey everyone, I&apos;m a new potter, just 4 weeks into my journey,
-            and I&apos;m looking to get some feedback on what I&apos;ve made so
-            far. I&apos;m particularly interested in how to make rustic looking
-            bowls and pots, and I&apos;d love to know what the best tools to use
-            would be!
+            This is an amended version of the Burdastyle Lydia Pattern. Further
+            explanations coming soon! Keep your eyes peeled...
           </p>
 
           <div className="slides">
@@ -98,13 +95,13 @@ export default function Home() {
         </div>
         <div className="meta">
           <div className="eth-name">
-            <img
+            {/* <img
               src="https://ipfs.io/ipfs/QmbctVN8tPaDLiLysVDwThf7JTJhMejbSypZ4a3v5H2G3a"
               alt="Avatar of riklomas.eth"
-            />
+            /> */}
             <div className="name">
-              <span className="primary">riklomas.eth</span>
-              <span className="secondary">0xb25bf3...aaf4</span>
+              <span className="primary">helenemartin.eth</span>
+              <span className="secondary">0xc1c85e...ffbf</span>
             </div>
           </div>
         </div>

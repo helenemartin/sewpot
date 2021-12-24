@@ -117,9 +117,7 @@ export default function Home() {
       </section>
 
       <Head>
-        <title>
-          Looking for feedback as a beginner – Feedback forum – Potstop{" "}
-        </title>
+        <title>Sewing Incorporated – Blog Posts </title>
         <meta
           property="og:title"
           content="Looking for feedback as a beginner on Potstop"

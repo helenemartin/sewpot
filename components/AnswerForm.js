@@ -47,7 +47,7 @@ const AnswerForm = function ({ accounts, setAnswers, isLoggedIn }) {
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
 
-      <button disabled={!isLoggedIn}>Reply</button>
+      <button disabled={!isLoggedIn}>Comment</button>
     </form>
   );
 };

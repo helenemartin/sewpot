@@ -295,6 +295,7 @@ h3:before {
 div.slides {
   width: 100%;
   overflow-x: auto;
+  
 
   display: flex;
   gap: 8px;
@@ -302,6 +303,12 @@ div.slides {
 
   scroll-snap-type: x mandatory;
 }
+
+div.slides img {
+  object-fit: cover;
+}
+
+
 
 div.slides::-webkit-scrollbar {
   height: 4px;
@@ -320,6 +327,7 @@ div.slides::-webkit-scrollbar-thumb {
 }
 
 div.slides div {
+  
   width: 480px;
   height: 640px;
   flex: 0 0 auto;

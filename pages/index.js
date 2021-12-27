@@ -87,7 +87,7 @@ export default function Home() {
           </p>
 
           <div className="slides">
-            <Image key={1} src="/image-1.jpg" alt="" width="600" height="800" />
+            <Image key={1} src="/lydia1.jpg" alt="" width="600" height="800" />
             <Image key={2} src="/image-2.jpg" alt="" width="600" height="800" />
             <Image key={3} src="/image-3.jpg" alt="" width="600" height="800" />
             <Image key={4} src="/image-4.jpg" alt="" width="600" height="800" />

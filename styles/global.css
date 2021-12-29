@@ -9,17 +9,17 @@ html {font-family: 'Poiret One', cursive;}
 }
 
 :root {
-  --background-color: #FFDDAD;
-  --panel-color: #ffffff;
+  --background-color: #B2753E;
+  --panel-color:#EAE2D2;
   --action-panel-color: #ebe9e5;
 
-  --background-color:#FFDDAD;
+  --background-color:#E1DFCC;
   --text-color: #1b221f;
 
   --form-element-border-color: #d7d5cd;
   --form-element-placeholder-color: #AAA9A4;
-  --title-color: rgba(69, 51, 159, 0.92);
-  --highlight-color: salmon;
+  --title-color:#d75c3a;
+  --highlight-color:#929C80;
   --focus-color: #3fa178;
   --inactive-color: #999999;
 
@@ -308,7 +308,7 @@ div.slides {
   scroll-snap-type: x mandatory;
   border-top-right-radius: 25%;
     border-top-left-radius: 25%;
-    border:  #1b221f 20px double;
+    border: rgb(128, 128, 33) 20px double;
     background-clip: content-box;
 }
 

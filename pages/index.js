@@ -90,7 +90,7 @@ export default function Home() {
             <Image key={1} src="/lydia2.jpg" alt="" width="600" height="800" />
             <Image key={2} src="/lydia4.jpg" alt="" width="600" height="800" />
             <Image key={3} src="/lydia3.jpg" alt="" width="600" height="800" />
-            <Image key={4} src="/lydia5.jpg" alt="" width="600" height="800" />
+            <Image key={4} src="/step2.jpg" alt="" width="600" height="800" />
           </div>
         </div>
         <div className="meta">

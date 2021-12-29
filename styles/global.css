@@ -9,12 +9,12 @@ html {font-family: 'Poiret One', cursive;}
 }
 
 :root {
-  --background-color: #1b221f;
+  --background-color: #FFDDAD;
   --panel-color: #ffffff;
   --action-panel-color: #ebe9e5;
 
-  --background-color:#1b221f;
-  --text-color: #fbf7f4;
+  --background-color:#FFDDAD;
+  --text-color: #1b221f;
 
   --form-element-border-color: #d7d5cd;
   --form-element-placeholder-color: #AAA9A4;
@@ -299,15 +299,16 @@ h3:before {
 }
 
 div.slides {
+  background-color:#EAE2D2;
   width: 100%;
   overflow-x: auto;
   display: flex;
-  gap: 8px;
+  gap: 2px;
   padding: 0 0 8px 0;
   scroll-snap-type: x mandatory;
   border-top-right-radius: 25%;
     border-top-left-radius: 25%;
-    border: #EAE2D2 20px double;
+    border:  #1b221f 20px double;
     background-clip: content-box;
 }
 

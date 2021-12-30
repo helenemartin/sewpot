@@ -13,12 +13,12 @@ html {font-family: 'Poiret One', cursive;}
   --panel-color:#EAE2D2;
   --action-panel-color: #ebe9e5;
 
-  --background-color:#E1DFCC;
+  --background-color: #e1dfcc;
   --text-color: #1b221f;
 
   --form-element-border-color: #d7d5cd;
   --form-element-placeholder-color: #AAA9A4;
-  --title-color:#d75c3a;
+  --title-color:#002815;
   --highlight-color:#929C80;
   --focus-color: #3fa178;
   --inactive-color: #999999;
@@ -230,6 +230,7 @@ div.eth-name {
 }
 
 div.eth-name div.icon {
+  filter: sepia(0.5);
   width: 40px;
   height: 40px;
   border-radius: 50%;

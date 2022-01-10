@@ -18,9 +18,9 @@ html {font-family: 'Poiret One', cursive;}
 
   --form-element-border-color: #d7d5cd;
   --form-element-placeholder-color: #AAA9A4;
-  --title-color:#002815;
-  --highlight-color:#929C80;
-  --focus-color: #3fa178;
+  --title-color:#fc3359;
+  --highlight-color:black;
+  --focus-color: #FC96F4;
   --inactive-color: #999999;
 
   --box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
@@ -96,7 +96,7 @@ header div.eth-name {
 }
 
 h1 {
-  font-family: 'Marko One', serif;
+  font-family: 'Baskerville', serif;
  
   font-size: 32px;
   line-height: 32px;
@@ -167,8 +167,8 @@ input[type=text]:focus, textarea:focus {
 
 button {
   appearance: none;
-  background-color: var(--highlight-color);
-  color: #ffffff;
+  color: var(--highlight-color);
+  background-color: #ffffff;
   border: none;
   border-radius: 50px;
   font: inherit;
@@ -181,6 +181,7 @@ button {
 
 button:focus, button:hover {
   background-color: var(--focus-color);
+  color: white;
   cursor: pointer;
 }
 
